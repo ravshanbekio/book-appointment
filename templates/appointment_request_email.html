@@ -1,0 +1,31 @@
+<!-- appointment_request_email.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment Request Submission</title>
+</head>
+<body>
+    <p>Dear {{ official_name }},</p>
+    
+    <p>We are writing to submit an appointment request on behalf of {{ full_name }} for their visa application process. Below are the details provided by the user:</p>
+    
+    <p><strong>Full Name:</strong> {{ full_name }}</p>
+    <p><strong>Date of Birth:</strong> {{ date_of_birth }}</p>
+    <p><strong>Nationality:</strong> {{ nationality }}</p>
+    <p><strong>Passport Number:</strong> {{ passport_number }}</p>
+    <p><strong>Email:</strong> {{ email }}</p>
+    <p><strong>Phone Number:</strong> {{ phone_number }}</p>
+    <p><strong>Address:</strong> {{ address }}</p>
+    <p><strong>Type of Visa:</strong> {{ visa_type }}</p>
+    <p><strong>Appointment Date and Time:</strong> {{ appointment_date }} {{ appointment_time }}</p>
+    
+    <p>Please let us know if there are any further requirements or if additional information is needed.</p>
+    
+    <p>Thank you for your attention to this request.</p>
+    
+    <p>Best regards,</p>
+    <p>{{ organization_name }}</p>
+    <p>{{ contact_information }}</p>
+</body>
+</html>

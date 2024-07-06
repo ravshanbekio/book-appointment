@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Confirmation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .message {
+            font-size: 18px;
+            margin: 20px;
+        }
+        .footer {
+            font-size: 14px;
+            color: gray;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Appointment Confirmation</div>
+    <div class="message">
+        <p>Dear {{full_name}},</p>
+        <p>We are pleased to inform you that your appointment request has been successfully processed.</p>
+        <p>Your appointment details are as follows:</p>
+        <p>Date: [Appointment Date]</p>
+        <p>Time: [Appointment Time]</p>
+        <p>Location: [Appointment Location]</p>
+        <p>Please make sure to bring all the necessary documents to your appointment.</p>
+    </div>
+    <div class="footer">
+        <p>Thank you,</p>
+        <p>The Immigration Office Team</p>
+    </div>
+</body>
+</html>
